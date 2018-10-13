@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JFViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hma-oq-lZ9">
+                    <rect key="frame" x="100" y="100" width="175" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="IZI-s6-J9r"/>
+                    </constraints>
+                    <state key="normal" title="NSThead"/>
+                    <connections>
+                        <action selector="NSThreadClick:" destination="-1" eventType="touchUpInside" id="zBt-1h-klT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZ7-Pq-tD7" userLabel="GCD">
+                    <rect key="frame" x="100" y="180" width="175" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Hk9-40-tSh"/>
+                    </constraints>
+                    <state key="normal" title="GCD"/>
+                    <connections>
+                        <action selector="GCDClick:" destination="-1" eventType="touchUpInside" id="v8n-pR-CsS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GwI-BA-eZ7" userLabel="NSOperation">
+                    <rect key="frame" x="100" y="260" width="175" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="NfP-hs-snd"/>
+                    </constraints>
+                    <state key="normal" title="NSOperation"/>
+                    <connections>
+                        <action selector="NSOperationClick:" destination="-1" eventType="touchUpInside" id="rjE-BH-SPv"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2p-Uc-cvd" userLabel="RunLoop">
+                    <rect key="frame" x="100" y="340" width="175" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="kV4-oP-JHo"/>
+                    </constraints>
+                    <state key="normal" title="NSRunloop"/>
+                    <connections>
+                        <action selector="RunLoopClick:" destination="-1" eventType="touchUpInside" id="DRU-ZF-ghb"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="GwI-BA-eZ7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="100" id="2tm-AI-xbv"/>
+                <constraint firstItem="GwI-BA-eZ7" firstAttribute="top" secondItem="zZ7-Pq-tD7" secondAttribute="bottom" constant="40" id="9Va-Gs-ZNq"/>
+                <constraint firstItem="zZ7-Pq-tD7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="100" id="CLS-Zo-DoK"/>
+                <constraint firstAttribute="trailing" secondItem="i2p-Uc-cvd" secondAttribute="trailing" constant="100" id="DFK-b1-k9G"/>
+                <constraint firstItem="i2p-Uc-cvd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="100" id="IYq-kj-aTv"/>
+                <constraint firstItem="hma-oq-lZ9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="100" id="Mdk-BY-2ea"/>
+                <constraint firstItem="i2p-Uc-cvd" firstAttribute="top" secondItem="GwI-BA-eZ7" secondAttribute="bottom" constant="40" id="QjG-KW-X7d"/>
+                <constraint firstItem="hma-oq-lZ9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="WpS-0n-EtW"/>
+                <constraint firstAttribute="trailing" secondItem="hma-oq-lZ9" secondAttribute="trailing" constant="100" id="d2b-br-bB9"/>
+                <constraint firstAttribute="trailing" secondItem="zZ7-Pq-tD7" secondAttribute="trailing" constant="100" id="fSQ-u6-cnb"/>
+                <constraint firstAttribute="trailing" secondItem="GwI-BA-eZ7" secondAttribute="trailing" constant="100" id="qEe-yh-Wi7"/>
+                <constraint firstItem="zZ7-Pq-tD7" firstAttribute="top" secondItem="hma-oq-lZ9" secondAttribute="bottom" constant="40" id="vw6-Jc-IVQ"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>
