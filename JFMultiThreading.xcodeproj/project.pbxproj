@@ -19,6 +19,8 @@
 		5ADDC08D2172072400A391BE /* JFGCDVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADDC08C2172072400A391BE /* JFGCDVC.m */; };
 		5ADDC0902172073E00A391BE /* JFNSRunloopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADDC08F2172073E00A391BE /* JFNSRunloopVC.m */; };
 		5ADDC0932172075800A391BE /* JFNSOperationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADDC0922172075800A391BE /* JFNSOperationVC.m */; };
+		5ADDC0972172344100A391BE /* JFNSThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADDC0952172344100A391BE /* JFNSThreadViewController.m */; };
+		5ADDC0982172344100A391BE /* JFNSThreadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ADDC0962172344100A391BE /* JFNSThreadViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,9 @@
 		5ADDC08F2172073E00A391BE /* JFNSRunloopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFNSRunloopVC.m; sourceTree = "<group>"; };
 		5ADDC0912172075800A391BE /* JFNSOperationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFNSOperationVC.h; sourceTree = "<group>"; };
 		5ADDC0922172075800A391BE /* JFNSOperationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFNSOperationVC.m; sourceTree = "<group>"; };
+		5ADDC0942172344100A391BE /* JFNSThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFNSThreadViewController.h; sourceTree = "<group>"; };
+		5ADDC0952172344100A391BE /* JFNSThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFNSThreadViewController.m; sourceTree = "<group>"; };
+		5ADDC0962172344100A391BE /* JFNSThreadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JFNSThreadViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +123,9 @@
 			children = (
 				5ADDC0882172063000A391BE /* JFNSThreadVC.h */,
 				5ADDC0892172063000A391BE /* JFNSThreadVC.m */,
+				5ADDC0942172344100A391BE /* JFNSThreadViewController.h */,
+				5ADDC0952172344100A391BE /* JFNSThreadViewController.m */,
+				5ADDC0962172344100A391BE /* JFNSThreadViewController.xib */,
 			);
 			path = NSThread;
 			sourceTree = "<group>";
@@ -189,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ADDC0982172344100A391BE /* JFNSThreadViewController.xib in Resources */,
 				5A6BD4C22171FDBC00FB14BB /* JFViewController.xib in Resources */,
 				5A6BD4B52171F95D00FB14BB /* LaunchScreen.storyboard in Resources */,
 				5A6BD4B22171F95D00FB14BB /* Assets.xcassets in Resources */,
@@ -210,6 +219,7 @@
 				5ADDC0902172073E00A391BE /* JFNSRunloopVC.m in Sources */,
 				5ADDC08A2172063000A391BE /* JFNSThreadVC.m in Sources */,
 				5ADDC08D2172072400A391BE /* JFGCDVC.m in Sources */,
+				5ADDC0972172344100A391BE /* JFNSThreadViewController.m in Sources */,
 				5ADDC0932172075800A391BE /* JFNSOperationVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

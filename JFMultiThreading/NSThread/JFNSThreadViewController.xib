@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JFNSThreadViewController">
+            <connections>
+                <outlet property="imageView" destination="D9C-cs-67a" id="c5T-nU-tjc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D9C-cs-67a">
+                    <rect key="frame" x="50" y="100" width="275" height="250"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="3F3-2u-i6y"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="子线程下载主线程刷新UI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuG-x5-qOb">
+                    <rect key="frame" x="20" y="400" width="335" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="NpV-gk-stA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="LuG-x5-qOb" firstAttribute="top" secondItem="D9C-cs-67a" secondAttribute="bottom" constant="50" id="1cA-lW-HiP"/>
+                <constraint firstItem="D9C-cs-67a" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="7VG-1S-0g6"/>
+                <constraint firstAttribute="trailing" secondItem="LuG-x5-qOb" secondAttribute="trailing" constant="20" id="8iM-C2-707"/>
+                <constraint firstItem="D9C-cs-67a" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="Xo4-RZ-Pyn"/>
+                <constraint firstItem="LuG-x5-qOb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="k34-Pm-9sD"/>
+                <constraint firstAttribute="trailing" secondItem="D9C-cs-67a" secondAttribute="trailing" constant="50" id="lTT-23-Dec"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="112.5"/>
+        </view>
+    </objects>
+</document>

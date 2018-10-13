@@ -11,6 +11,7 @@
 #import "JFNSOperationVC.h"
 #import "JFNSRunloopVC.h"
 #import "JFGCDVC.h"
+#import "JFNSThreadViewController.h"
 
 @interface JFViewController ()
 
@@ -24,7 +25,7 @@
     // Do any additional setup after loading the view from its nib.
 }
 - (IBAction)NSThreadClick:(id)sender {
-    JFNSThreadVC *VC = [JFNSThreadVC new];
+    JFNSThreadViewController *VC = [JFNSThreadViewController new];
     [self pushWith:VC];
 }
 
