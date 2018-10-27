@@ -15,10 +15,11 @@
 		5A6BD4B82171F95D00FB14BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6BD4B72171F95D00FB14BB /* main.m */; };
 		5A6BD4C12171FDBC00FB14BB /* JFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6BD4BF2171FDBC00FB14BB /* JFViewController.m */; };
 		5A6BD4C22171FDBC00FB14BB /* JFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A6BD4C02171FDBC00FB14BB /* JFViewController.xib */; };
+		5ADB1EDB2184AF0600C92FF6 /* JFOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB1ED72184AF0600C92FF6 /* JFOperation.m */; };
+		5ADB1EDC2184AF0600C92FF6 /* JFNSOperationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB1ED82184AF0600C92FF6 /* JFNSOperationVC.m */; };
 		5ADDC08A2172063000A391BE /* JFNSThreadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADDC0892172063000A391BE /* JFNSThreadVC.m */; };
 		5ADDC08D2172072400A391BE /* JFGCDVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADDC08C2172072400A391BE /* JFGCDVC.m */; };
 		5ADDC0902172073E00A391BE /* JFNSRunloopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADDC08F2172073E00A391BE /* JFNSRunloopVC.m */; };
-		5ADDC0932172075800A391BE /* JFNSOperationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADDC0922172075800A391BE /* JFNSOperationVC.m */; };
 		5ADDC0972172344100A391BE /* JFNSThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADDC0952172344100A391BE /* JFNSThreadViewController.m */; };
 		5ADDC0982172344100A391BE /* JFNSThreadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ADDC0962172344100A391BE /* JFNSThreadViewController.xib */; };
 /* End PBXBuildFile section */
@@ -37,14 +38,16 @@
 		5A6BD4BE2171FDBC00FB14BB /* JFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFViewController.h; sourceTree = "<group>"; };
 		5A6BD4BF2171FDBC00FB14BB /* JFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFViewController.m; sourceTree = "<group>"; };
 		5A6BD4C02171FDBC00FB14BB /* JFViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JFViewController.xib; sourceTree = "<group>"; };
+		5ADB1ED72184AF0600C92FF6 /* JFOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFOperation.m; sourceTree = "<group>"; };
+		5ADB1ED82184AF0600C92FF6 /* JFNSOperationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFNSOperationVC.m; sourceTree = "<group>"; };
+		5ADB1ED92184AF0600C92FF6 /* JFNSOperationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFNSOperationVC.h; sourceTree = "<group>"; };
+		5ADB1EDA2184AF0600C92FF6 /* JFOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFOperation.h; sourceTree = "<group>"; };
 		5ADDC0882172063000A391BE /* JFNSThreadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFNSThreadVC.h; sourceTree = "<group>"; };
 		5ADDC0892172063000A391BE /* JFNSThreadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFNSThreadVC.m; sourceTree = "<group>"; };
 		5ADDC08B2172072400A391BE /* JFGCDVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFGCDVC.h; sourceTree = "<group>"; };
 		5ADDC08C2172072400A391BE /* JFGCDVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFGCDVC.m; sourceTree = "<group>"; };
 		5ADDC08E2172073E00A391BE /* JFNSRunloopVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFNSRunloopVC.h; sourceTree = "<group>"; };
 		5ADDC08F2172073E00A391BE /* JFNSRunloopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFNSRunloopVC.m; sourceTree = "<group>"; };
-		5ADDC0912172075800A391BE /* JFNSOperationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFNSOperationVC.h; sourceTree = "<group>"; };
-		5ADDC0922172075800A391BE /* JFNSOperationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFNSOperationVC.m; sourceTree = "<group>"; };
 		5ADDC0942172344100A391BE /* JFNSThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFNSThreadViewController.h; sourceTree = "<group>"; };
 		5ADDC0952172344100A391BE /* JFNSThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFNSThreadViewController.m; sourceTree = "<group>"; };
 		5ADDC0962172344100A391BE /* JFNSThreadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JFNSThreadViewController.xib; sourceTree = "<group>"; };
@@ -112,8 +115,10 @@
 		5A6BD4C42171FEFE00FB14BB /* NSOperation */ = {
 			isa = PBXGroup;
 			children = (
-				5ADDC0912172075800A391BE /* JFNSOperationVC.h */,
-				5ADDC0922172075800A391BE /* JFNSOperationVC.m */,
+				5ADB1ED92184AF0600C92FF6 /* JFNSOperationVC.h */,
+				5ADB1ED82184AF0600C92FF6 /* JFNSOperationVC.m */,
+				5ADB1EDA2184AF0600C92FF6 /* JFOperation.h */,
+				5ADB1ED72184AF0600C92FF6 /* JFOperation.m */,
 			);
 			path = NSOperation;
 			sourceTree = "<group>";
@@ -213,14 +218,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A6BD4C12171FDBC00FB14BB /* JFViewController.m in Sources */,
+				5ADB1EDC2184AF0600C92FF6 /* JFNSOperationVC.m in Sources */,
 				5A6BD4AD2171F95D00FB14BB /* ViewController.m in Sources */,
 				5A6BD4B82171F95D00FB14BB /* main.m in Sources */,
 				5A6BD4AA2171F95D00FB14BB /* AppDelegate.m in Sources */,
+				5ADB1EDB2184AF0600C92FF6 /* JFOperation.m in Sources */,
 				5ADDC0902172073E00A391BE /* JFNSRunloopVC.m in Sources */,
 				5ADDC08A2172063000A391BE /* JFNSThreadVC.m in Sources */,
 				5ADDC08D2172072400A391BE /* JFGCDVC.m in Sources */,
 				5ADDC0972172344100A391BE /* JFNSThreadViewController.m in Sources */,
-				5ADDC0932172075800A391BE /* JFNSOperationVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
